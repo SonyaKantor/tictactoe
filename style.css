@@ -1,0 +1,40 @@
+html{
+    background: #f4f3f7;
+}
+h1{
+    margin-left: 40%;
+    color: rgb(120, 83, 224);
+    font-size: 28px;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    size: 40px ;
+    color: white; 
+}
+/* button{
+    width: 10%;
+    height: 10%;
+} */
+.container {
+    align-self: center;
+}
+
+#field {
+    margin-left: 33%;
+    margin-right: 33%;
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(3, 160px);
+    /* gap: 10px; */
+    background-color: #fdfffc;
+}
+
+#field button {
+    border: 2%;
+    background-color: #042644;
+    background-image: unset;
+}
+
+/* .hide{
+    visible
+} */
